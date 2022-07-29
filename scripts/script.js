@@ -1,48 +1,47 @@
 // Select all slides
 const slides = document.querySelectorAll(".slide");
 
-// // loop through slides and set each slides translateX
-// slides.forEach((slide, indx) => {
-//   slide.style.transform = `translateX(${indx * 100}%)`;
-// });
+// loop through slides and set each slides translateX
+slides.forEach((slide, indx) => {
+  slide.style.transform = `translateX(${indx * 100}%)`;
+});
 
-// select next slide button
-const nextSlide = document.querySelector(".btn-next");
+const nextSlide = document.querySelector(".btn-next"); // selects next slide button
 
-// current slide counter
-let curSlide = 0;
-// maximum number of slides
-let maxSlide = slides.length - 1;
+
+let currSlide = 0; // current slide counter, initialised to zero
+
+let maxSlide = slides.length - 1; // variable containing maximum number of slides
 
 // add event listener and navigation functionality
-nextSlide.addEventListener("click", function () {
+nextSlide.addEventListener("click", function checkSlideNext() {
   // check if current slide is the last and reset current slide
-  if (curSlide === maxSlide) {
-    curSlide = 0;
+  if (currSlide === maxSlide) {
+    currSlide = 0;
   } else {
-    curSlide++;
+    currSlide++;
   }
 
   //   move slide by -100%
   slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+    slide.style.transform = `translateX(${100 * (indx - currSlide)}%)`;
   });
 });
 
 // select next slide button
-const prevSlide = document.querySelector(".btn-prev");
+const prevSlide = document.querySelector(".btn-previous");
 
 // add event listener and navigation functionality
-prevSlide.addEventListener("click", function () {
+prevSlide.addEventListener("click", function checkSlidePrevious () {
   // check if current slide is the first and reset current slide to last
-  if (curSlide === 0) {
-    curSlide = maxSlide;
+  if (currSlide === 0) {
+    currSlide = maxSlide;
   } else {
-    curSlide--;
+    currSlide--;
   }
 
   //   move slide by 100%
   slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+    slide.style.transform = `translateX(${100 * (indx - currSlide)}%)`;
   });
 });
