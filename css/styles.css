@@ -1,0 +1,178 @@
+/* CSS Reset */
+
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li , figure, figcaption, form, fieldset, label, legend, dl, dt, dd, caption, table, td, th {
+    margin: 				0;
+    padding:				0;
+    font-size: 				100%;
+}
+
+section, article, header, footer, nav, aside, main {
+	display:				block;
+}
+
+img {
+	border:					none;
+}
+
+ul, ol {
+	list-style-type: 		none;
+}
+
+/* Defaults */
+
+body {
+	font-family:			Tahoma, Arial, sans-serif;
+	background-color:		antiquewhite;			
+}
+
+h1 {
+	font-weight:			bold;
+	color:					#000;
+	font-family:			'Oswald', sans-serif;
+	font-size:				5em;
+	text-align: 			center;
+}
+
+h2 {
+	font-size:				2.5em;
+	margin:					0.5em;
+	font-family: 			'Uchen', serif;
+	clear: 					both;
+	text-align: 			center;
+}
+
+h3 {
+	font-size:				1.75em;
+	margin:					0.5em;
+	color:					#000;
+	font-family: 			'Archivo Black', sans-serif;
+	float: 					left;
+	clear: 					both;
+}
+
+h4 {
+	font-family:			Arial, Helvetica, sans-serif;
+	font-weight:			bold;
+}
+
+p {
+	font-family:			Arial, Helvetica, sans-serif;
+	color:					#000;
+	clear:					both;
+	text-align:				justify;
+	margin:					15px;
+}
+
+p a {
+	text-decoration:		none;
+	color:					#0089FF;
+	font-weight:			bold;
+}
+
+p a:hover, a:focus {
+	color:					#FFFF00;
+}
+
+ul, ul li {
+	font-family:			Arial, Helvetica, sans-serif;
+	color:					#000;
+	clear:					both;
+	text-align:				justify;
+	margin:					1em;
+}
+
+ul {
+	list-style-type: 		disc;
+}
+
+#page {
+	width:					95%;
+	margin: 				0 auto;
+}
+
+#pageheader {
+	margin:					1em;
+	padding-bottom:			2em;
+	overflow:				hidden;
+	max-width:				100%;
+}
+
+.photopicturewrapper {
+	float:					left;
+	max-width:				100%;
+	padding:				1em;
+	margin:					0em 0em 1em 0em;
+	object-fit:				cover;
+	height: 				auto;
+}
+
+.photopicturewrapper img {
+	max-width:				100%;
+	height:					auto;
+	display: 				flex;
+	flex-wrap: 				wrap;
+	border:					2px solid #FFFFFF;
+}
+
+figcaption {
+	font-size:				0.75em;
+	font-style:				italic;
+	font-family:			Arial, Helvetica, sans-serif;
+	color:					#000;
+	clear:					both;
+	text-align:				justify;
+	margin:					0.5em;
+	}
+
+.date {
+	text-align: 			center;
+	font-weight: 			bold;
+}
+
+.bold {
+	font-weight: 			bold;
+}
+
+.italics {
+	font-style: 			italic;
+}
+
+.skiplink {
+	position:				absolute;
+	left: 					-10000px;
+}
+
+.skiplink:focus {
+	left:					0;
+	background-color: 		#4c712b;
+	color:					#ffff00;
+}
+
+.skiplink a:hover, a:focus {
+	color:					#4c712b;
+	text-decoration:		underline;
+}
+
+#mainsection {
+	overflow:				hidden;
+	border:					2px solid #C9C0C0;
+	width:					96%;
+	padding:				0.5em;
+	margin:					0.5em;
+	box-shadow:				2px 2px #C9C0C0;
+	background-color: 		white;
+}
+
+#mainsection h1 {
+	padding:				0.5em;
+}
+
+/* Footer */
+
+#footer {
+	overflow:				hidden;
+	clear:					both;
+	width:					95%;
+	padding:				1em;
+	margin:					1em 0.5em 1em 0.1em;
+}
