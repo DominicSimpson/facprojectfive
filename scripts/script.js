@@ -1,47 +1,28 @@
-// Select all slides
-const slides = document.querySelectorAll(".slide");
+let slideIndex = 1;
+showSlides(slideIndex);
 
-// loop through slides and set each slides translateX
-slides.forEach((slide, indx) => {
-  slide.style.transform = `translateX(${indx * 100}%)`;
-});
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-const nextSlide = document.querySelector(".btn-next"); // selects next slide button
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-
-let currSlide = 0; // current slide counter, initialised to zero
-
-let maxSlide = slides.length - 1; // variable containing maximum number of slides
-
-// add event listener and navigation functionality
-nextSlide.addEventListener("click", function checkSlideNext() {
-  // check if current slide is the last and reset current slide
-  if (currSlide === maxSlide) {
-    currSlide = 0;
-  } else {
-    currSlide++;
+function showSlides(n) {
+  let i;
+  let slides = document.querySelectorAll(".mySlides");
+  let dots = document.querySelectorAll(".dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
-
-  //   move slide by -100%
-  slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - currSlide)}%)`;
-  });
-});
-
-// select next slide button
-const prevSlide = document.querySelector(".btn-previous");
-
-// add event listener and navigation functionality
-prevSlide.addEventListener("click", function checkSlidePrevious () {
-  // check if current slide is the first and reset current slide to last
-  if (currSlide === 0) {
-    currSlide = maxSlide;
-  } else {
-    currSlide--;
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
   }
-
-  //   move slide by 100%
-  slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${100 * (indx - currSlide)}%)`;
-  });
-});
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
