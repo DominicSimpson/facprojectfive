@@ -7,6 +7,8 @@ const dotOne = document.getElementById("dotOne"); // gets dot buttons
 const dotTwo = document.getElementById("dotTwo");
 const dotThree = document.getElementById("dotThree");
 const dotFour = document.getElementById("dotFour");
+const dotFive = document.getElementById("dotFive");
+const dotSix = document.getElementById("dotSix");
 
 
 prevSlider.addEventListener("click", function (){
@@ -29,8 +31,16 @@ dotThree.addEventListener("click", function (){
   showSlides(slideIndex = 3);
 });
 
-dotThree.addEventListener("click", function (){
+dotFour.addEventListener("click", function (){
   showSlides(slideIndex = 4);
+});
+
+dotFive.addEventListener("click", function (){
+  showSlides(slideIndex = 5);
+});
+
+dotSix.addEventListener("click", function (){
+  showSlides(slideIndex = 6);
 });
 
 let slideIndex = 1; // initalised variable for slide index
