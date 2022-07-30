@@ -26,3 +26,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+document.getElementById('myBtn').addEventListener('click', showDots)
+
+function showDots(e) {
+  dots.className = "dot";
+}
+
+
+
+// Submit button triggers function above
