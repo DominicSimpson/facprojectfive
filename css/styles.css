@@ -215,9 +215,25 @@ ul {
 }
 
 .cards {
-	/* display:				flex; */
+	display:				flex;
 	height: 				auto;
+}
 
+
+@media screen and (max-width: 750spx)
+{
+.cards
+{
+	width: 50%;
+}
+}
+
+@media screen and (max-width: 500px)
+{
+.cards
+{
+	display: block;
+}
 }
 
 .imagewrapper
@@ -227,6 +243,8 @@ ul {
 	height: 				auto;
 	margin: 				1px auto;
 }
+
+
 
 .imagewrapper img
 {
