@@ -140,6 +140,12 @@ ul {
   }
   
   /* The dots/bullets/indicators */
+
+  .dots {
+	text-align: 			center;
+	padding:				15px;
+  }
+
   .dot {
 	cursor: 				pointer;
 	height: 				15px;
