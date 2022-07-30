@@ -220,14 +220,6 @@ ul {
 }
 
 
-@media screen and (max-width: 750spx)
-{
-.cards
-{
-	width: 50%;
-}
-}
-
 @media screen and (max-width: 500px)
 {
 .cards
@@ -241,10 +233,63 @@ ul {
 	max-width:				100%;
 	object-fit:				cover;
 	height: 				auto;
-	margin: 				1px auto;
+	margin: 				35px auto;
 }
 
 
+@media screen and (max-width: 1350px)
+{
+.imagewrapper
+{
+	margin: 20px;
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 1250px)
+{
+.imagewrapper
+{
+	margin: 20px;
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 1150px)
+{
+.imagewrapper
+{
+	margin: 20px;
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 1000px)
+{
+.imagewrapper
+{
+	margin: 20px;
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 850px)
+{
+.imagewrapper
+{
+	margin: 20px;
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 750px)
+{
+.imagewrapper
+{
+	margin: 20px;
+	justify-content: center;
+}
+}
 
 .imagewrapper img
 {
