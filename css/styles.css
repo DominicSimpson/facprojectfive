@@ -27,8 +27,8 @@ body {
 
 h1 {
 	font-weight:			bold;
-	color:					#FFFFFF;
-	font-family:			'Playfair Display', serif;
+	color:					#0089FF;
+	font-family:			'Cormorant SC', serif;;
 	font-size:				5em;
 	text-align: 			center;
 }
@@ -213,7 +213,7 @@ ul {
 }
 
 .cards {
-	display:				flex;
+	/* display:				flex; */
 	height: 				auto;
 
 }
@@ -238,13 +238,9 @@ ul {
 }
 
 .cardtext {
-	width: 					350px;
-	display: 				none;
-	border: 				3px solid #000;
-	display: 				none;
+	width: 					100%;
+	float: 					centre;
 }
-
-
 
 .caption {
 	clear:					both;

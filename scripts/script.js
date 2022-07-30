@@ -70,21 +70,3 @@ function showSlides(n) {
 
 }
 
-
-// function showSpoiler(obj)
-//     {
-//     var inner = obj.parentNode.getElementsByTagName("div")[0];
-//     if (inner.style.display == "none")
-//         inner.style.display = "";
-//     else
-//         inner.style.display = "none";
-//     }
-
-function myFunction() {
-  var x = document.querySelector(".cardtext");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
