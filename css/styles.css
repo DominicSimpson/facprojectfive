@@ -105,10 +105,31 @@ ul {
 	margin: 				auto;
   }
   
+  .numbertext {
+	font-family:		 	Arial, Helvetica, sans-serif;
+	text-align: 			center;
+	padding: 				2px;
+  }
+
+
   /* Hide the images by default */
   .mySlides {
 	display: 				none;
+	max-width:				100%;
+	padding:				1em;
+	margin:					0em 0em 1em 0em;
+	object-fit:				cover;
+	height: 				auto;
+	display: 				none;
   }
+
+  .mySlides img {
+	max-width:				100%;
+	height:					auto;
+	display: 				flex;
+	flex-wrap: 				wrap;
+	border:					2px solid #000;
+}
   
   /* Next & previous buttons */
   .prev, .next {
@@ -178,6 +199,7 @@ ul {
 	margin:					0em 0em 1em 0em;
 	object-fit:				cover;
 	height: 				auto;
+	display: 				none;
 }
 
 .photopicturewrapper img {
@@ -186,15 +208,21 @@ ul {
 	display: 				flex;
 	flex-wrap: 				wrap;
 	border:					2px solid #000;
+	display: none;
+}
+
+.cards {
+	display:				flex;
+	height: 				auto;
+
 }
 
 .imagewrapper
 {
-	float:					left;
 	max-width:				100%;
-	padding:				0.25em;
 	object-fit:				cover;
 	height: 				auto;
+	margin: 				1px auto;
 }
 
 .imagewrapper img
@@ -204,10 +232,20 @@ ul {
 	display: 				flex;
 	flex-wrap: 				wrap;
 	cursor: 				pointer;
+	border: 				1px solid #000;
+	margin: 				5px;
 }
 
+.cardtext {
+	width: 					350px;
+	display: 				none;
+	border: 				3px solid #000;
+	display: 				none;
+}
+
+
+
 .caption {
-	color:					#000;
 	clear:					both;
 	text-align:				justify;
 	margin:					0.5em;
@@ -217,6 +255,7 @@ ul {
 	color:					#000;
 	font-family: 			'Archivo Black', sans-serif;
 	}
+
 
 .bold {
 	font-weight: 			bold;
