@@ -2,8 +2,13 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
+
+
+document.getElementById('myBtn1').addEventListener('click', plusSlides)
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  sliderButton.className = "prev";
 }
 
 // Thumbnail image controls
@@ -27,11 +32,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-document.getElementById('myBtn').addEventListener('click', showDots)
 
-function showDots(e) {
-  dots.className = "dot";
-}
+
+
+
+
+
 
 
 
