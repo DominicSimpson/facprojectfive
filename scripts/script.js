@@ -9,12 +9,17 @@ const dotThree = document.getElementById("dotThree");
 const dotFour = document.getElementById("dotFour");
 const dotFive = document.getElementById("dotFive");
 const dotSix = document.getElementById("dotSix");
+
 const showDescription = document.getElementById("showDescription");
 const showSecondDescription = document.getElementById("showSecondDescription");
 const showThirdDescription = document.getElementById("showThirdDescription");
 const showFourthDescription = document.getElementById("showFourthDescription");
 const showFifthDescription = document.getElementById("showFifthDescription");
 const showSixthDescription = document.getElementById("showSixthDescription");
+const showSeventhDescription = document.getElementById("showSeventhDescription");
+const showEighthDescription = document.getElementById("showEighthDescription");
+const showNinthDescription = document.getElementById("showNinthDescription");
+const showTenthDescription = document.getElementById("showTenthDescription");
 
 
 
@@ -104,6 +109,41 @@ showSixthDescription.addEventListener("click", function (){
   }
 });
 
+showSeventhDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardSeventhText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showEighthDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardEighthText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showNinthDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardNinthText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showTenthDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardTenthText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
 
 let slideIndex = 1; // initalised variable for slide index
 
