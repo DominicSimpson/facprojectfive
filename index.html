@@ -90,13 +90,18 @@
 					When I was a kid, I programmed simple computer games on an Amstrad CPC-46, using BASIC language -
 					so with the Theseus &amp; Project, it feels like I've come full circle.</p>
 					<p>This portfolio contains my work on the six projects that are 
-					required as part of the application process, as well as some of my other work.
-					Click on the images below and they will take you to the projects' GitHub repository.</p>
+					required as part of the application process, as well as some of my other work.</p>
 				<br>
+
 				<div class="cards">
 					
 					<div class="imagewrapper">
-						<img src="images/fac1_tributepage_card.jpg" alt="Photo of tribute page card as project number one for Founders & Coders application">
+						<div class="cardcontainer">
+							<img src="images/fac1_tributepage_card.jpg" alt="Photo of tribute page card as project number one for Founders & Coders application">
+							<div class="overlay">
+								<div class="text">Project One: Click on image and scroll down for project description</div>
+							</div>
+						</div>
 					</div>
 					
 					<div class="imagewrapper">
@@ -108,6 +113,54 @@
 					</div>
 				
 				</div>
+
+				<div class="cardtext">
+					<h4><a href="https://github.com/DominicSimpson/facprojectone" target='_blank'>Project One: Tribute Page to Buckminster Fuller</a></h4>
+					<p>For the first project, I constructed a 
+						tribute page to Buckminster "Bucky" Fuller, the legendary American architect, 
+						systems theorist, futurist, writer, designer, inventor, and philosopher. 
+						Fuller is something of a hero of mine, having overcome the odds to be a true visionary 
+						whose ideas are still with us today.</p>
+					<p>I used Google Fonts to make the headings looks professional and employed Flex Box.  
+						I also decided to keep the main section with a white background, because some of the 
+						images &#x2013; particularly the Dymaxion car replica and the Dymaxion map projection 
+						of the World &#x2013; had white images, and thus would've not have had the same effect 
+						if the background colour was not straight white. </p>	 
+					<p>Initially, the time and date were at the top, but this did not look quite right, 
+						so it put it in the footer section.</p> 
+					<p>The links are in blue for accessibility purposes: blue is generally held up as the 
+						best colour to have links in, for those who have sight access requirements.</p>
+					<p>Clicking on the link above will take you to the project's GitHub repository.</p> 
+				</div>
+
+				<div class="cardtext">
+					<h4><a href="https://github.com/DominicSimpson/facprojecttwo" target='_blank'>Project Two: Project Gallery</a></h4>
+					<p>This project gallery is made up of screenshot cards of each of the six projects that make up the Founders & Coders application. 
+						I have used media queries to try and make the cards scale correctly, and 
+						at a max-width of 600px, the images stap on top of each other.</p>
+					<p>Clicking on the link above will take you to the project's GitHub repository.</p> 
+
+				</div>
+
+				<div class="cardtext">
+					<h4><a href="https://github.com/DominicSimpson/facprojectthree" target='_blank'>Project Three: Comment Box</a></h4>
+					<p>For the third project, I constructed a 
+						Comment Box, which employed the same logic as when Tweeting: only a maximum of 140 characters 
+						allowed.</p>
+					<p>This meant setting up a system on JavaScript where a constant variable with the number 140 was invoked 
+						as comparison when the user started typing in characters. This logic was tricky to comprehend at first 
+						given that the counter was counting down from 140 to 0 rather than up, as well as having to account 
+						for what would happen to the counter if the user backspaced.</p>	 
+					<p>I constructed an if else statement to account for if the user had reached the 
+						limit of 140 characters, with not only the text highlighted in red, but also the walls 
+						via the outline property in CSS, which I had not encountered before.</p> 
+					<p>Finally, I also construct a print function, which not only printed out what the user 
+						had typed in the text area before hitting Submit, but also forced them to fill in 
+						the Name field, which was printed out too.</p> 
+					<p>Clicking on the link above will take you to the project's GitHub repository.</p> 
+
+				</div>
+
 
 				<div class="cards">
 
@@ -126,55 +179,14 @@
 				</div>
 
 						<div class="cardtext">
-							<h4><a href="https://github.com/DominicSimpson/facprojectone" target='_blank'>Project One: Tribute Page to Buckminster Fuller</a></h4>
-							<p>For the first project, I constructed a 
-								tribute page to Buckminster "Bucky" Fuller, the legendary American architect, 
-								systems theorist, futurist, writer, designer, inventor, and philosopher. 
-								Fuller is something of a hero of mine, having overcome the odds to be a true visionary 
-								whose ideas are still with us today.</p>
-							<p>I used Google Fonts to make the headings looks professional and employed Flex Box.  
-								I also decided to keep the main section with a white background, because some of the 
-								images &#x2013; particularly the Dymaxion car replica and the Dymaxion map projection 
-								of the World &#x2013; had white images, and thus would've not have had the same effect 
-								if the background colour was not straight white. </p>	 
-							<p>Initially, the time and date were at the top, but this did not look quite right, 
-								so it put it in the footer section.</p> 
-							<p>The links are in blue for accessibility purposes: blue is generally held up as the 
-								best colour to have links in, for those who have sight access requirements.</p> 
-						</div>
-	
-						<div class="cardtext">
-							<h4><a href="https://github.com/DominicSimpson/facprojecttwo" target='_blank'>Project Two: Project Gallery</a></h4>
-							<p>This project gallery is made up of screenshot cards of each of the six projects that make up the Founders & Coders application. 
-								I have used media queries to try and make the cards scale correctly, and 
-								at a max-width of 600px, the images stap on top of each other.</p>
-						</div>
-
-						<div class="cardtext">
-							<h4><a href="https://github.com/DominicSimpson/facprojectthree" target='_blank'>Project Three: Comment Box</a></h4>
-							<p>For the third project, I constructed a 
-								Comment Box, which employed the same logic as when Tweeting: only a maximum of 140 characters 
-								allowed.</p>
-							<p>This meant setting up a system on JavaScript where a constant variable with the number 140 was invoked 
-								as comparison when the user started typing in characters. This logic was complicated by the fact that 
-								the counter was counting down from 140 to 0 rather than up, as well as having to account for what 
-								would happen to the counter if the user backspaced.</p>	 
-							<p>I constructed an if else statement to account for if the user had reached the 
-								limit of 140 characters, with not only the text highlighted in red, but also the walls 
-								via the outline property in CSS, which I had not encountered before.</p> 
-							<p>Finally, I also construct a print function, which not only printed out what the user 
-								had typed in the text area before hitting Submit, but also forced them to fill in 
-								the Name field, which was printed out too.</p> 
-						</div>
-
-						<div class="cardtext">
 							<h4><a href="https://github.com/DominicSimpson/facprojectfour" target='_blank'>Project Four: Fruit Shop</a></h4>
 							<p>For the fourth project, I constructed a Fruit Shop, with each fruit added to a Cart 
 								that displayed on a separate page. </p>
 							<p>Each fruit item was linked to a specific object in a Products array in the JavaScript, 
 								with an inCart element as one the elements in the object that incremented every time.</p>	 
 							<p>A function called displayCart printed out the products on the Cart page, 
-								generating the items and price, and calculating a basket total.</p> 
+								generating the items and price, and calculating a basket total.</p>
+							<p>Clicking on the link above will take you to the project's GitHub repository.</p>  
 						</div>
 
 						<div class="cardtext">
@@ -186,6 +198,8 @@
 								I've had for the last few years.</p>
 							<p>I've also seen other websites use Roboto Mono font successfully, 
 								so I employed this as a paragraph font.</p>	 
+							<p>Clicking on the link above will take you to the project's GitHub repository.</p>  
+	
 						</div>
 
 						<div class="cardtext">
@@ -210,7 +224,9 @@
 								These included a Start button and Timer, so that each Theseus could be timed. 
 								An additional consideration had to be made on each Theseus having an equidistant route to the Minotaur, 
 								which influenced the mirrored pattern of the Labyrinth. The process of transforming from 
-								the first level to the second was complex, particularly when trying to restart the timer.</p>		 
+								the first level to the second was complex, particularly when trying to restart the timer.</p>
+							<p>Clicking on the link above will take you to the project's GitHub repository.</p> 
+		 
 						</div>
 					
 					<h2>Other Work</h2>
@@ -227,6 +243,22 @@
 					
 					</div>
 
+					<div class="cardtext">
+						<h4><a href="https://dominicsimpson.co.uk/animation.html" target='_blank'>Solar System</a></h4>
+						<p>The image above links to a page on my website where I have constructed some animation based on 
+							the solar system. This includes all of the planets and some of the main moons.
+							I have used CSS animations to do so, including setting the timing duration at different
+							levels for each planet, so that they rotate around the animated Sun at different speeds.</p>
+					</div>
+
+					<div class="cardtext">
+						<h4><a href="https://dominicsimpson.co.uk/webdevelopment.html" target='_blank'>Web Development work during Birkbeck course</a></h4>
+						<p>I completed a Certificate in Continuing Education in Web Developement at Birkbeck College a few years
+							ago, comprising several modules that gave me a good grounding in advanced HTML and basic object-orientated
+							programming concepts and logic. This work collects some of the coursework that I completed for these modules. 
+						</p>
+					</div>
+
 					<div class="cards">
 
 						<div class="imagewrapper">
@@ -238,22 +270,6 @@
 						</div>
 					
 					</div>
-						
-						<div class="cardtext">
-							<h4><a href="https://dominicsimpson.co.uk/animation.html" target='_blank'>Solar System</a></h4>
-							<p>The image above links to a page on my website where I have constructed some animation based on 
-								the solar system. This includes all of the planets and some of the main moons.
-								I have used CSS animations to do so, including setting the timing duration at different
-								levels for each planet, so that they rotate around the animated Sun at different speeds.</p>
-						</div>
-					
-						<div class="cardtext">
-							<h4><a href="https://dominicsimpson.co.uk/webdevelopment.html" target='_blank'>Web Development work during Birkbeck course</a></h4>
-							<p>I completed a Certificate in Continuing Education in Web Developement at Birkbeck College a few years
-								ago, comprising several modules that gave me a good grounding in advanced HTML and basic object-orientated
-								programming concepts and logic. This work collects some of the coursework that I completed for these modules. 
-							</p>
-						</div>
 					
 						<div class="cardtext">
 							<h4><a href="https://stackblitz.com/edit/web-platform-wulaoi?file=script.js,index.html" target='_blank'>Array test</a></h4>
@@ -272,7 +288,6 @@
 							<p>Photos that I have taken around the world and here in the UK
 								(warning: contains Bootstrap frameworks). Click on image above.</p>
 						</div>
-
 				
 			</section>
 		<!-- End of Main Section -->
