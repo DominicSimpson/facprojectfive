@@ -9,6 +9,13 @@ const dotThree = document.getElementById("dotThree");
 const dotFour = document.getElementById("dotFour");
 const dotFive = document.getElementById("dotFive");
 const dotSix = document.getElementById("dotSix");
+const showDescription = document.getElementById("showDescription");
+const showSecondDescription = document.getElementById("showSecondDescription");
+const showThirdDescription = document.getElementById("showThirdDescription");
+const showFourthDescription = document.getElementById("showFourthDescription");
+const showFifthDescription = document.getElementById("showFifthDescription");
+const showSixthDescription = document.getElementById("showSixthDescription");
+
 
 
 prevSlider.addEventListener("click", function (){
@@ -42,6 +49,61 @@ dotFive.addEventListener("click", function (){
 dotSix.addEventListener("click", function (){
   showSlides(slideIndex = 6);
 });
+
+showDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showSecondDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardTwoText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showThirdDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardThirdText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showFourthDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardFourthText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showFifthDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardFifthText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
+showSixthDescription.addEventListener("click", function (){
+  var x = document.getElementById("cardSixthText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+});
+
 
 let slideIndex = 1; // initalised variable for slide index
 
