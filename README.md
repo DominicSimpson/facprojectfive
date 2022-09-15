@@ -1,2 +1,2 @@
 # facprojectfive and #facprojecttwo - Application Website and Project Gallery
-###### For my application website and project gallery, which together took up projects two and five as part of my application for Founders & Coders, I decided to use bright, welcome 
+###### For my application website and project gallery, which together took up projects two and five as part of my application for Founders & Coders, I decided to use bright, welcoming colours, utilising yellow as the background colour, rather than the more [forbidding black](http://www.dominicsimpson.co.uk) that appears on my own website. 
