@@ -1,5 +1,5 @@
 # facprojectfive and #facprojecttwo - Application Website and Project Gallery
-###### For my application website and project gallery, which together took up projects two and five as part of my application for Founders & Coders, I decided to use bright, welcoming colours, utilising yellow as the background colour, rather than the more [forbidding black](http://www.dominicsimpson.co.uk) that appears on my own website. For the paragraph font, I used Roboto Mono font, having seen this used on so many websites successfully. 
+###### For my application website and project gallery, which together took up projects two and five as part of my application for Founders & Coders, I decided to use bright, welcoming colours, utilising yellow as the background colour, rather than the more [forbidding black](http://www.dominicsimpson.co.uk) that appears on my own website. I constructed an image carousel and dot buttons that showed visually the projects required to apply. For the paragraph font, I used Roboto Mono font, having seen this used on so many websites successfully. 
 ###### As requested, I linked in the Project Gallery cards of the following, which were accompanied by a 'Show Description' button that revealed information about each project.*
 ## List of Projects
 1. Tribute Page to Buckminster Fuller
