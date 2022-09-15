@@ -9,7 +9,7 @@
 5. Application Website
 6. Feature - Theseus & The Minotaur
 ###### In addition, I also included cards for other coding projects that I have worked on:
-1. Solar System animation from my website
+1. [Solar System animation](http://www.dominicsimpson.co.uk/animation.html) from my website
 2. Portfolio of work from a number of modules in Web Development that I completed at Birkbeck College, central London
 3. A previous prompt from Founders & Coders as part of an application for their coding Bootcamp, now discontinued, involving having a form that prompted the user to enter a sequence of numbers divided by commas. If the user clicked on the Filter button and then clicked Submit, the form would then state which of those buttons were divisible by two. By contrast, if the user clicked on the Reduce function and then clicked Submit, the form would then state the total of the numbers inputted.
 4. A page on my website with photography by me.
